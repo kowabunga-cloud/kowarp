@@ -20,7 +20,7 @@ GOSEC = $(BINDIR)/gosec
 GOSEC_VERSION = v2.22.10
 
 PKGS = $(shell go list ./...)
-PKGS_SHORT = $(shell go list ./... | sed 's%github.com/kowabunga-cloud/kowarp/%%')
+PKGS_SHORT = $(shell go list ./... | sed 's%github.com/kowabunga-cloud/kowarp%.%')
 
 V = 0
 Q = $(if $(filter 1,$V),,@)
