@@ -7,7 +7,7 @@
 package main
 
 import (
-	"github.com/kowabunga-cloud/kowabunga/kowabunga/kowarp"
+	"github.com/kowabunga-cloud/kowarp"
 )
 
 func main() {
