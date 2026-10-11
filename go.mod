@@ -3,7 +3,7 @@ module github.com/kowabunga-cloud/kowarp
 go 1.27.0
 
 require (
-	github.com/kowabunga-cloud/common v0.64.1
+	github.com/kowabunga-cloud/common v0.65.0
 	github.com/mdlayher/arp v0.0.0-20220512170110-6706a2966875
 	github.com/vishvananda/netlink v1.3.1
 )
