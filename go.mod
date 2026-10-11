@@ -1,6 +1,6 @@
 module github.com/kowabunga-cloud/kowarp
 
-go 1.25.0
+go 1.27.0
 
 require (
 	github.com/kowabunga-cloud/common v0.64.1
